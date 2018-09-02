@@ -13,8 +13,7 @@ python trainLenet.py
 #### Office-31 Domain Adaptation
 - Create a txt file for the image path of the Office dataset as shown in [amazon.txt](https://github.com/A-bone1/JDDA/tree/master/Office_JDDA_C/data)
 - Download the [ResNet-L50](https://pan.baidu.com/s/1IMUVnpM8Ve6XX37rtv2zJQ) pre-training model
--
-```
+-```
 cd Office_JDDA_C or Office_JDDA_I/JDDA_I
 python train_JDDA.py
 ```
