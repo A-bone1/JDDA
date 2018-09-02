@@ -5,12 +5,12 @@ This repository contains code for reproducing the experiments reported in the pa
 
 ## train JDDA
 This code requires Python 2 and implemented in Tensorflow 1.9. You can download all the datasets used in our paper from [here](https://pan.baidu.com/s/1IMUVnpM8Ve6XX37rtv2zJQ) and place them in the specified directory.
-### Digital Domain Adaptation
+#### Digital Domain Adaptation
 ```
 cd Digital_JDDA_I or Digital_JDDA_C
 python trainLenet.py
 ```
-### Office-31 Domain Adaptation
+#### Office-31 Domain Adaptation
 - Create a txt file for the image path of the Office dataset as shown in [amazon.txt](https://github.com/A-bone1/JDDA/tree/master/Office_JDDA_C/data)
 - Download the [ResNet-L50](https://pan.baidu.com/s/1IMUVnpM8Ve6XX37rtv2zJQ) pre-training model
 -
