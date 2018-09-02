@@ -1,7 +1,7 @@
 # JDDA
 ## Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation
 
-This repository contains code for reproducing the experiments reported in the [paper](https://arxiv.org/abs/1808.09347) Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation. In the source code, the JDDA_C is denoted by 'center_loss' in Digital_JDDA_C and the  JDDA_C is denoted by 'Manifold' in Digital_JDDA_I.
+This repository contains code for reproducing the experiments reported in the [paper](https://arxiv.org/abs/1808.09347) **Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation**. In the source code, the JDDA_C is denoted by 'center_loss' in Digital_JDDA_C and the  JDDA_C is denoted by 'Manifold' in Digital_JDDA_I.
 
 ## train JDDA
 This code requires Python 2 and implemented in Tensorflow 1.9. You can download all the datasets used in our paper from [here](https://pan.baidu.com/s/1IMUVnpM8Ve6XX37rtv2zJQ) and place them in the specified directory.
