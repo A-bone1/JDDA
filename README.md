@@ -30,14 +30,13 @@ python train_JDDA.py
 ### train Compared Approaches
 We mainly compare our proposal with [DDC](https://arxiv.org/abs/1412.3474), [DAN](http://proceedings.mlr.press/v37/long15.pdf),[DANN](http://www.jmlr.org/papers/volume17/15-239/15-239.pdf), [CMD](https://arxiv.org/abs/1702.08811), [ADDA](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf) and [CORAL](https://arxiv.org/abs/1607.01719)
 
-If you want to use these methods, you can modify them here.
+If you want to use these methods, you can modify them in [trainLenet.py](https://github.com/Abone1/JDDA/blob/master/Digital_JDDA_C/trainLenet.py).
 ```python
 93        self.CalDiscriminativeLoss(method="CenterBased")
 94        self.CalDomainLoss(method="CORAL")
 ```
-in [trainLenet.py](https://github.com/A-bone1/JDDA/blob/master/Digital_JDDA_C/trainLenet.py)
 
-or
+or in [train_JDDA.py](https://github.com/A-bone1/JDDA/blob/master/Office_JDDA_C/JDDA_C/train_JDDA.py)
 
 ```python
 84    # domain_loss=tf.maximum(0.0001,KMMD(source_model.avg_pool,target_model.avg_pool))
@@ -46,7 +45,6 @@ or
 87    # domain_loss = mmatch(source_model.avg_pool,target_model.avg_pool, 5)
 88  # domain_loss = log_coral_loss(source_model.adapt, target_model.adapt)
 ```
-in [train_JDDA.py](https://github.com/A-bone1/JDDA/blob/master/Office_JDDA_C/JDDA_C/train_JDDA.py)
 
 The results (accuracy %) for unsupervised domain adaptation can be seen here
 ![image](https://github.com/A-bone1/JDDA/blob/master/img/accuracy.png)
