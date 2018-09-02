@@ -1,7 +1,7 @@
 # JDDA
 ## Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation
 
-This repository contains code for reproducing the experiments reported in the paper [Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1808.09347). In the source code, the JDDA_C is denoted by 'center_loss' in Digital_JDDA_C and the  JDDA_C is denoted by 'Manifold' in Digital_JDDA_I.
+This repository contains code for reproducing the experiments reported in the [paper](https://arxiv.org/abs/1808.09347) Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation. In the source code, the JDDA_C is denoted by 'center_loss' in Digital_JDDA_C and the  JDDA_C is denoted by 'Manifold' in Digital_JDDA_I.
 
 ## train JDDA
 This code requires Python 2 and implemented in Tensorflow 1.9. You can download all the datasets used in our paper from [here](https://pan.baidu.com/s/1IMUVnpM8Ve6XX37rtv2zJQ) and place them in the specified directory.
@@ -13,7 +13,8 @@ python trainLenet.py
 #### Office-31 Domain Adaptation
 - Create a txt file for the image path of the Office dataset as shown in [amazon.txt](https://github.com/A-bone1/JDDA/tree/master/Office_JDDA_C/data)
 - Download the [ResNet-L50](https://pan.baidu.com/s/1IMUVnpM8Ve6XX37rtv2zJQ) pre-training model
--```
+-
+```
 cd Office_JDDA_C or Office_JDDA_I/JDDA_I
 python train_JDDA.py
 ```
