@@ -50,10 +50,10 @@ The results (accuracy %) for unsupervised domain adaptation can be seen here
 ![image](https://github.com/A-bone1/JDDA/blob/master/img/accuracy.png)
 
 ###  t-SNE visualization
-If you want to use t-SNE visualization, you can open the comment
+If you want to use t-SNE visualization, you can open the comment in [train_JDDA.py](https://github.com/A-bone1/JDDA/blob/master/Digital_JDDA_I/trainLenet.py)
 ```python
 94  # self.conputeTSNE(step, self.SourceData,  self.TargetData,self.SourceLabel, self.TargetLabel, sess)
 ```
-in [train_JDDA.py](https://github.com/A-bone1/JDDA/blob/master/Digital_JDDA_I/trainLenet.py)
+
 
 ![image](https://github.com/A-bone1/JDDA/blob/master/img/tsne.png)
