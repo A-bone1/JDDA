@@ -22,7 +22,9 @@ python train_JDDA.py
 ```
 
 ## train Compared Approaches
-We mainly compare our proposal with [DDC](https://arxiv.org/abs/1412.3474), [DAN](http://proceedings.mlr.press/v37/long15.pdf),[DANN](http://www.jmlr.org/papers/volume17/15-239/15-239.pdf), [CMD](https://arxiv.org/abs/1702.08811), [ADDA](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf) and [CORAL](https://arxiv.org/abs/1607.01719). If you want to use these methods, you can modify them in [trainLenet.py](https://github.com/Abone1/JDDA/blob/master/Digital_JDDA_C/trainLenet.py).
+We mainly compare our proposal with [DDC](https://arxiv.org/abs/1412.3474), [DAN](http://proceedings.mlr.press/v37/long15.pdf),[DANN](http://www.jmlr.org/papers/volume17/15-239/15-239.pdf), [CMD](https://arxiv.org/abs/1702.08811), [ADDA](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf) and [CORAL](https://arxiv.org/abs/1607.01719). 
+
+* If you want to use these methods, you can modify them in [trainLenet.py](https://github.com/Abone1/JDDA/blob/master/Digital_JDDA_C/trainLenet.py).
 ```python
 93        self.CalDiscriminativeLoss(method="CenterBased")
 94        self.CalDomainLoss(method="CORAL")
