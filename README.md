@@ -1,7 +1,7 @@
 # JDDA
 ## Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation
 
-* This repository contains code for reproducing the experiments reported in the [paper](https://arxiv.org/abs/1808.09347) **Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation**.  which has been accepted by AAAI2019.
+* This repository contains code for reproducing the experiments reported in the [paper](https://arxiv.org/abs/1808.09347) **Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation**.  which has been **accepted by AAAI2019**.
 * In the source code, the JDDA_C is denoted by 'center_loss' in Digital_JDDA_C and the  JDDA_C is denoted by 'Manifold' in Digital_JDDA_I.
 * Another qualified repository completed by the co-author can be seen [JDDA repository](https://github.com/chenchao666/JDDA-Master)
 
